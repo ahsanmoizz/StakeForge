@@ -1,0 +1,57 @@
+/* Ensure html and body take full height */
+html, body {
+    height: 100%; /* Full viewport height */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
+}
+
+/* Style for the contact section */
+.contact {
+    background-image: url('../images/new15.jpg'); /* Replace with your contact background image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repetition */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+}
+
+/* Style for content */
+.contact h1 {
+    font-size: 3rem; /* Heading size */
+    margin-bottom: 20px; /* Space below heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow */
+}
+
+.contact p {
+    font-size: 1.2rem; /* Paragraph text size */
+    margin-bottom: 20px; /* Space below paragraph */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow */
+}
+
+.contact h3 {
+    font-size: 1.5rem; /* Subheading size */
+    margin-bottom: 30px; /* Space below subheading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow */
+}
+
+/* Optional: Add additional content styling */
+.contact .content {
+    z-index: 2; /* Ensure content appears above the background */
+}
+
+/* Add responsive design if needed */
+@media (max-width: 768px) {
+    .contact h1 {
+        font-size: 2rem;
+    }
+
+    .contact p, .contact h3 {
+        font-size: 1rem;
+    }
+}

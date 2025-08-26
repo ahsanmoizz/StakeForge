@@ -1,0 +1,36 @@
+.header {
+  background-color: #007BFF;
+  color: white;
+  padding: 0; /* Removed extra padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../images/new2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60px; /* Adjust height to fit the content */
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFD700;
+}

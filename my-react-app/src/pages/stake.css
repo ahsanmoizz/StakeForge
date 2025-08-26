@@ -1,0 +1,67 @@
+/* ConfirmReceipt.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/new15.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Confirm-Receipt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.Confirm-Receipt h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.Confirm-Receipt div {
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.Confirm-Receipt label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.Confirm-Receipt input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Confirm-Receipt button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.Confirm-Receipt button:hover {
+    background-color: #45a049;
+}
+
+.Confirm-Receipt button:disabled {
+    background-color: #a5d6a7;
+    cursor: not-allowed;
+}

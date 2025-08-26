@@ -1,0 +1,12 @@
+.footer {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  background-image: url('../images/new2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0; /* Ensure no margin at the top */
+}
